@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { Routes, Route, Navigate } from 'react-router-dom';
 import Header from './components/Header/Header'
 import Rosangela from './pages/Rosangela/Rosangela';
