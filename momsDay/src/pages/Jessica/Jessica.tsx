@@ -18,7 +18,12 @@ import imgCarroussel0207 from "../../assets/jessica/carrossel0207.jpg";
 import imgCarroussel0208 from "../../assets/jessica/carrossel0208.jpg";
 import imgCarroussel0209 from "../../assets/jessica/carrossel0209.jpg";
 import imgCarroussel0210 from "../../assets/jessica/carrossel0210.jpg";
+import imgP01 from "../../assets/jessica/img_principal01.jpg";
+import imgP02 from "../../assets/jessica/img_principal02.jpg";
+import imgP03 from "../../assets/jessica/img_principal03.jpg";
+import imgP04 from "../../assets/jessica/img_principal04.jpg";
 import MensagemDedicatoria01 from '../../components/Dedicatoria/MensagemDedicatoria01';
+import CarrosselDeFotos from '../../components/Picture/Picture';
 
 export default function Jessica() {
   const imagens = [
@@ -31,8 +36,28 @@ export default function Jessica() {
     imgCarroussel0207, imgCarroussel0208, imgCarroussel0209, imgCarroussel0210
   ];
 
+  const slides = [
+    {
+      imagemUrl: imgP01,
+      legenda: "Feliz dia das mães!",
+    },
+    {
+      imagemUrl: imgP02,
+      legenda: "'Essa me lembra o primeiro ano, tão gostoso e desafiador. Me lembra o cansaço, as madrugada, as orações e o muitos embalos nesse corredor. Haha'",
+    },
+    {
+      imagemUrl: imgP03,
+      legenda: "'Essa daqui, eu vejo e é como se eu sentisse  o abraço do Isaac.'",
+    },
+    {
+      imagemUrl: imgP04,
+      legenda: "'Essa representa bem essa fase de agora. A gente não tão mais grudado fisicamente, mas construindo outras conexões'",
+    },
+  ];
+
   return (
     <div>
+      <CarrosselDeFotos slides={slides} />
       <Banner />
       <Carrossel imagens={imagens} />
       <MensagemDedicatoria01/>
