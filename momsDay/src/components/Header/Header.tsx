@@ -2,7 +2,6 @@
 import React from 'react';
 import { Menu, X } from 'lucide-react';
 import { Heart } from 'lucide-react';
-import { Link } from 'react-router-dom';
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = React.useState(false);
