@@ -14,8 +14,8 @@ export default function Header() {
 
         {/* Desktop menu */}
         <nav className="hidden md:flex gap-6 text-pink-800 font-medium tracking-wide">
-          <Link to={"/rosangela"} className="hover:text-pink-600 transition">Rosângela</Link>
-          <Link to={"/jessica"}  className="hover:text-pink-600 transition">Jéssica</Link>
+          {/* <Link to={"/rosangela"} className="hover:text-pink-600 transition">Rosângela</Link>
+          <Link to={"/jessica"}  className="hover:text-pink-600 transition">Jéssica</Link> */}
         </nav>
 
         {/* Mobile menu button */}
@@ -27,8 +27,8 @@ export default function Header() {
       {/* Mobile dropdown menu */}
       {menuOpen && (
         <nav className="md:hidden bg-pink-100 px-4 pb-4 text-pink-800 tracking-wide">
-          <Link to={"/rosangela"}  className="block py-2 hover:text-pink-600">Rosângela</Link>
-          <Link to={"/jessica"}  className="block py-2 hover:text-pink-600">Jéssica</Link>
+          {/* <Link to={"/rosangela"}  className="block py-2 hover:text-pink-600">Rosângela</Link>
+          <Link to={"/jessica"}  className="block py-2 hover:text-pink-600">Jéssica</Link> */}
         </nav>
       )}
     </header>

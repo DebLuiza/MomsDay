@@ -2,8 +2,8 @@ import React from 'react';
 
 const MensagemDedicatoria01: React.FC = () => {
   return (
-    <div className='flex items-center justify-center'>
-      <div className="max-w-3xl mx-3 my-4 border-4 border-pink-600 p-6 rounded-xl shadow-lg text-center font-poppins">
+    <div className='flex items-center justify-center bg-pink-200'>
+      <div className="max-w-3xl mx-3 my-4 border-4 border-pink-600 p-6 rounded-xl shadow-lg text-center font-poppins bg-white">
       <h2 className="text-3xl font-semibold text-gray-800 mb-4">Feliz Dia das Mães!</h2>
       <p className="text-lg text-gray-700 mb-4">
         Neste Dia das Mães, eu e Isaac celebramos não apenas a mulher incrível que você é, mas toda a sua trajetória feita de entrega, renúncia e um amor que não conhece limites.

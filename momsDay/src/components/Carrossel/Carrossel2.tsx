@@ -20,7 +20,7 @@ const CarrosselSimples: React.FC<CarrosselProps> = ({ imagens }) => {
   };
 
   return (
-    <div className="relative w-full max-w-4xl mx-auto p-5 bg-pink-200">
+    <div className="relative w-full max-w-4xl mx-auto p-5 bg-pink-300">
       <div className="relative overflow-hidden">
         <img
           src={imagens[currentIndex]}
