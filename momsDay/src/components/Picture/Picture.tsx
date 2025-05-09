@@ -34,7 +34,7 @@ const CarrosselDeFotos: React.FC<CarrosselProps> = ({ slides }) => {
         />
       </div>
 
-      <p className="mt-4 text-center text-rose-700 font-semibold text-lg px-6">
+      <p className="mt-4 text-center text-shadow-rose-950 font-semibold text-lg px-6">
         {slides[currentIndex].legenda}
       </p>
 
