@@ -17,9 +17,12 @@ import imgCarroussel0207 from "../../assets/rosangela/img07.jpg";
 import imgCarroussel0208 from "../../assets/rosangela/img08.jpg";
 import imgCarroussel0209 from "../../assets/rosangela/img09.jpg";
 import imgCarroussel0210 from "../../assets/rosangela/img10.jpg";
+import fotoPrincipal from "../../assets/rosangela/fotoPrincipal.jpg";
 import MensagemRosangela from '../../components/Banner/Banner2';
 import MensagemDiego from '../../components/Dedicatoria/MensagemDiego';
 import MensagemDeb from '../../components/Dedicatoria/MensagemDeb';
+import MensagemDougras from '../../components/Dedicatoria/MensagemDougras';
+
 
 export default function Rosangela() {
   const imagens = [
@@ -34,10 +37,14 @@ export default function Rosangela() {
 
   return (
     <div>
+      <div className='p-4 flex items-center justify-center'>
+        <img src={fotoPrincipal} className='max-w-[400px] min-w-[250px] w-full rounded-2xl border-2 border-pink-700 shadow-2xl'/>
+      </div>
       <MensagemRosangela/>
       <Carrossel imagens={imagens} />
       <MensagemDiego/>
       <MensagemDeb/>
+      <MensagemDougras/>
       <Carrossel2 imagens={imagens2} />
     </div>
   );
