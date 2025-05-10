@@ -22,6 +22,7 @@ import MensagemRosangela from '../../components/Banner/Banner2';
 import MensagemDiego from '../../components/Dedicatoria/MensagemDiego';
 import MensagemDeb from '../../components/Dedicatoria/MensagemDeb';
 import MensagemDougras from '../../components/Dedicatoria/MensagemDougras';
+import MensagemMiguel from '../../components/Dedicatoria/MensagemMiguel';
 
 
 export default function Rosangela() {
@@ -45,6 +46,7 @@ export default function Rosangela() {
       <MensagemDiego/>
       <MensagemDeb/>
       <MensagemDougras/>
+      <MensagemMiguel/>
       <Carrossel2 imagens={imagens2} />
     </div>
   );
