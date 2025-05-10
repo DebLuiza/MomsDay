@@ -43,15 +43,15 @@ export default function Jessica() {
     },
     {
       imagemUrl: imgP02,
-      legenda: "'Essa me lembra o primeiro ano, tão gostoso e desafiador. Me lembra o cansaço, as madrugada, as orações e o muitos embalos nesse corredor. Haha'",
+      legenda: "'Essas memórias me transportam de volta ao primeiro ano, uma experiência repleta de sabor e desafios. Recordo o cansaço das madrugadas, as preces silenciosas e os tantos momentos de alegria vividos neste corredor.'",
     },
     {
       imagemUrl: imgP03,
-      legenda: "'Essa daqui, eu vejo e é como se eu sentisse  o abraço do Isaac.'",
+      legenda: "'Tem algo nessa imagem… é como se o abraço do Isaac estivesse ali, silencioso e cheio de amor'",
     },
     {
       imagemUrl: imgP04,
-      legenda: "'Essa representa bem essa fase de agora. A gente não tão mais grudado fisicamente, mas construindo outras conexões'",
+      legenda: "'Essa imagem traduz bem esse momento: menos colados, mas mais conectados de outros jeitos. Tem uma distância suave entre os momentos… como quem aprende a se ligar de outras formas.'",
     },
   ];
 
