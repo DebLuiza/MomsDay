@@ -1,5 +1,3 @@
-import React from "react";
-
 const MensagemDougras = () => {
   return (
     <div className="flex items-center justify-center bg-pink-200 p-6">
