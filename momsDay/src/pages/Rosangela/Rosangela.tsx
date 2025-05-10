@@ -15,7 +15,6 @@ import imgCarroussel0205 from "../../assets/rosangela/img05.jpg";
 import imgCarroussel0206 from "../../assets/rosangela/img06.jpg";
 import imgCarroussel0207 from "../../assets/rosangela/img07.jpg";
 import imgCarroussel0208 from "../../assets/rosangela/img08.jpg";
-import imgCarroussel0209 from "../../assets/rosangela/img09.jpg";
 import imgCarroussel0210 from "../../assets/rosangela/img10.jpg";
 import fotoPrincipal from "../../assets/rosangela/fotoPrincipal.jpg";
 import MensagemRosangela from '../../components/Banner/Banner2';
@@ -33,7 +32,7 @@ export default function Rosangela() {
   const imagens2 = [
     imgCarroussel0201, imgCarroussel0202, imgCarroussel0203,
     imgCarroussel0204, imgCarroussel0205, imgCarroussel0206,
-    imgCarroussel0207, imgCarroussel0208, imgCarroussel0209, imgCarroussel0210
+    imgCarroussel0207, imgCarroussel0208, imgCarroussel0210
   ];
 
   return (
